@@ -19,7 +19,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v6
       with:
-        go-version-file: 'go.mog'
+        go-version-file: 'go.mod'
 
     - name: Revive Action
       uses: morphy2k/revive-action@v2.7.8
